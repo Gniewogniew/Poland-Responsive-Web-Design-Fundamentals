@@ -1,0 +1,135 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 360px){
+    .header__title {
+        font-size: 2em;
+    }
+    .hero article p {
+        font-size: 14px;
+    }
+    footer a {
+        padding: 6px;
+        font-size: 14px;           
+    }
+}
+@media screen and (min-width: 390px){
+    .top-news {
+        font-size: 15px;
+    }
+    .scores__table th {
+        font-size: 16px;
+    }
+    .scores{
+        font-size: 14px;
+    }
+    .recent-news {
+        font-size: 14px;
+    }    
+}
+@media screen and (min-width: 510px) {
+    .nav {
+        display: inline-block;
+    }
+    .menu-icon {
+        display: none;
+    }
+    footer ul {
+        text-align: center;
+    }
+    .header__inner {
+        text-align: center;
+    }
+    .header__logo {
+        height: 72px;
+    }
+    .header__title {
+        font-size: 4em;
+    }
+    .top-news {
+        height: 260px;
+    }
+    .nav.open {
+        opacity: 0;
+    }
+    .Game-date{
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 541px) {
+    .hero {
+        width: 60%;
+        order: 0;
+    }
+    .weather {
+        font-size: 16px;
+        width: 40%;
+        order: 1;
+    }
+    .top-news {
+        width: 100%;
+        order: 3;
+    }
+    .scores {
+        order: 4;
+    }
+    .recent-news {
+        order: 5;
+    }
+    .hero article {
+        height: 45%;
+    }
+}
+@media screen and (min-width: 590px) {
+    .top-news {
+        font-size: 16px;
+    }
+    .hero article p {
+        font-size: 16px;
+    }
+    .scores{
+        font-size: 16px;
+    }
+    .recent-news {
+        font-size: 16px;
+    } 
+}
+@media screen and (min-width: 700px) {
+    .hero {
+        width: 50%;
+        order: 0;
+    }
+    .scores {
+        width: 55%;
+        order: 3;
+    }
+    .top-news {
+        height: 320px;
+        width: 50%;
+        order: 1;
+    }
+    .weather {
+        width: 45%;
+        order: 2;
+    }
+}
+@media screen and (min-width: 800px) {
+    .hero {
+        width: 45%;    
+    }
+    .top-news {
+        width: 55%;
+    }
+}
+@media screen and (min-width: 900px) {
+    main,
+    .header__inner,
+    .nav__list,
+    .content {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
